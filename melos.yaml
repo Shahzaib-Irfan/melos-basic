@@ -1,0 +1,10 @@
+name: my_melos_project
+packages:
+  - packages/*
+  - apps/*
+
+scripts:
+  analyze:
+    run: dart analyze
+  format:
+    run: dart format .
