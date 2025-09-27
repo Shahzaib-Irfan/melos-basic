@@ -1,10 +1,12 @@
 name: my_melos_project
 packages:
-  - packages/*
-  - apps/*
+  - packages/**
+  - apps/**
 
 scripts:
-  analyze:
+  analyze:flutter:
+    run: flutter analyze
+  analyze:dart:
     run: dart analyze
   format:
     run: dart format .
